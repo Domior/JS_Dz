@@ -70,7 +70,8 @@ const clearInputs = () => {
     lengthArea.value = '';
     widthArea.value = '';
     heightArea.value = '';
-}
+    handleChange();
+};
 
 const handleChange = () => {
     for (const input of inputs) {
