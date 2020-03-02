@@ -1,21 +1,34 @@
-*,*::after, *::before{
+*,
+*::after,
+*::before {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    padding-top: 250px;
+
+body {
+    padding-top: 100px;
+    padding-bottom: 20px;
     background-color: #7E57C2;
-}
-.calculator{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+}
+h1{
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.calculatorSquareOffice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
 }
 
-input{
+.calculatorSquareOffice input {
     width: 400px;
     height: 30px;
     padding: 5px 20px;
@@ -23,16 +36,16 @@ input{
     border-radius: 50px;
     border: none;
     outline: 0;
-
 }
-label{
+
+.calculatorSquareOffice label {
     color: #ffffff;
     font-size: 20px;
     margin-bottom: 5px;
 }
 
 
-.calculateButton{
+.calculateButtonSquare {
     margin-top: 20px;
     width: 200px;
     background-color: red;
@@ -45,7 +58,8 @@ label{
     outline: 0;
     cursor: pointer;
 }
-.calculateButton:hover{
+
+.calculateButtonSquare:hover {
     transform: scale(1.09);
     transition: transform 0.3s linear;
 }
