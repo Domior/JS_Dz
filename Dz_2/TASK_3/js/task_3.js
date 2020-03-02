@@ -32,7 +32,6 @@ buttonTicket.addEventListener('click', calculateIsLuckyTicket = () => {
             alert(`YES, your ticket is lucky!`);
             clearInputs();
             break;
-
         default:
             alert(`NO, your ticket is not lucky =(
         Good luck next time!`);
