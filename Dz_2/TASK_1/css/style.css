@@ -44,11 +44,10 @@ h1{
     margin-bottom: 5px;
 }
 
-
 .calculateButtonSquare {
     margin-top: 20px;
     width: 200px;
-    background-color: red;
+    background-color: #d35151;
     color: #ffffff;
     font-size: 20px;
     padding: 20px 50px;

@@ -76,7 +76,7 @@ const clearInputs = () => {
 const handleChange = () => {
     for (const input of inputs) {
         if (input.value === "") {
-            button.style.backgroundColor = 'red';
+            button.style.backgroundColor = '#d35151';
             button.setAttribute('disabled', '');
             return;
         }
