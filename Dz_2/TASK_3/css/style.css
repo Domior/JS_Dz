@@ -20,7 +20,7 @@ h1{
     font-size: 30px;
     margin-bottom: 20px;
 }
-.calculatorSquareOffice {
+.calculatorLuckyTicket {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,7 +28,7 @@ h1{
     margin-bottom: 200px;
 }
 
-.calculatorSquareOffice input {
+.calculatorLuckyTicket input {
     width: 400px;
     height: 30px;
     padding: 5px 20px;
@@ -38,17 +38,17 @@ h1{
     outline: 0;
 }
 
-.calculatorSquareOffice label {
+.calculatorLuckyTicket label {
     color: #ffffff;
     font-size: 20px;
     margin-bottom: 5px;
 }
 
 
-.calculateButtonSquare {
+.calculateIsLuckyTicket {
     margin-top: 20px;
     width: 200px;
-    background-color: red;
+    background-color: #d35151;
     color: #ffffff;
     font-size: 20px;
     padding: 20px 50px;
@@ -59,72 +59,7 @@ h1{
     cursor: pointer;
 }
 
-.calculateButtonSquare:hover {
-    transform: scale(1.09);
-    transition: transform 0.3s linear;
-}
-
-
-/*=========================== */
-.calculatorValueSand {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.blockSand {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.sandPrice{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 50px;
-}
-.capacitySand{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.calculatorValueSand input {
-    width: 250px;
-    height: 30px;
-    padding: 5px 20px;
-    margin-bottom: 15px;
-    border-radius: 50px;
-    border: none;
-    outline: 0;
-
-}
-.calculatorValueSand label {
-    color: #ffffff;
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-
-.calculateButtonValueSand {
-    margin-top: 20px;
-    width: 200px;
-    background-color: red;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 20px 50px;
-    border-radius: 50px;
-    text-align: center;
-    border: none;
-    outline: 0;
-    cursor: pointer;
-}
-
-.calculateButtonValueSand:hover {
+.calculateIsLuckyTicket:hover {
     transform: scale(1.09);
     transition: transform 0.3s linear;
 }
