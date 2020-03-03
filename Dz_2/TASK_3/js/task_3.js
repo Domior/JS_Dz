@@ -24,14 +24,12 @@ buttonTicket.addEventListener('click', calculateIsLuckyTicket = () => {
     const secondPart = +splitedTicketValues[3] + +splitedTicketValues[4] + +splitedTicketValues[5];
 
     switch (true) {
-        case firstPart == secondPart:
-            alert(`YES, your ticket is lucky!`);
+        case ticketValues.length < 6:
+            alert(`Error, enter the correct value`);
             clearInputs();
             break;
-        case ticketValues.length < 3:
-            firstPart = 0;
-            alert(`NO, your ticket is not lucky =(
-        Good luck next time!`);
+        case firstPart == secondPart:
+            alert(`YES, your ticket is lucky!`);
             clearInputs();
             break;
         default:
