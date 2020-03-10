@@ -11,12 +11,9 @@
 
 
 // function pushAnalog(array, ...args) {
-//     const merged = [ ...array, ...args];
-
-//     array = merged;
+//     array = [ ...array, ...args];
 
 //     console.log(array);
-
 //     return array.length;
 // }
 
