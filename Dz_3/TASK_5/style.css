@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    display: flex;
+    
+}
+input{
+    width: 200px;
+    margin-bottom: 20px;
+    
+}
+button{
+    width: 200px;
+}
+.circle{
+    margin-top: 40px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #000;
+}
